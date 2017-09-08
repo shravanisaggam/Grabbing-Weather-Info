@@ -1,0 +1,51 @@
+body {
+	background: #d53369;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(90deg, #cbad6d 10%, #d53369 90%);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(90deg, #cbad6d 10%, #d53369 90%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+h2 {
+	color: steelblue;
+	line-height: 1.1;
+	margin: 0;
+	font-weight: bold;
+	font-size: 50px;
+
+	}
+
+h3 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 10px;
+}
+
+.jumbotron {
+	padding: 20px 10px;
+	text-transform: uppercase;
+	text-align: center;
+	background: #d53369;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(90deg, #cbad6d 10%, #d53369 90%);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(90deg, #cbad6d 10%, #d53369 90%); 
+}
+
+#rowDiv {
+	margin: auto;
+	text-align: center;
+	width: 60%;
+}
+
+input[type="text"] {
+    width: 200px;
+}
+
+#submitWeather {
+	height: 40px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#show {
+	font-size: 10px;
+	margin: auto;
+		width: 60%;
+}
